@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+                                      /* 各ページに使われている */
+
+body{
+    background-color: #F9F5EB;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #002B5B;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    color: aliceblue;
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+header a{
+    color: aliceblue;
+}
+
+header a:hover{
+    color: #EA5455;
+}
+
+
+
+li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+
+                                                 /* MyBBSページ */
+
+.content-box{
+    background-color: #002B5B;
+    padding: 20px;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.post{
+    padding: 10px 15px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: #E4DCCF;
+}
+
+.actions{
+    padding-top: 8px;
+}
+.actions a{
+    background-color: #002B5B;
+    color: aliceblue;
+    padding: 4px 5px;
+    margin: 0px 3px;
+}
+
+/* 投稿フォーム */
+
+.post-form{
+    padding-left: 10%;
+    padding-bottom: 50px;
+}
+
+                                                 /* 投稿確認ページ */
+.thank-you{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+                                                  /* ホームページ */
+.homepage-box{
+    display: flex;
+    background-color: #002B5B;
+    padding: 20px;
+    width: 90%;
+    /* height: 500px; */
+    margin: 40px auto;
+
+}
+
+.about{
+    padding-top: 15px ;
+    padding-bottom: 15px;
+}
+
+.daily-log{
+    padding-top: 15px;
+}
